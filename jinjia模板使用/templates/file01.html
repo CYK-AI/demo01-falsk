@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>获取各种变量的值</h2>
+        <h3>整数: {{ my_num + 20 }}</h3>
+        <h3>字符串: {{ my_str + "python" }}</h3>
+        <h3>列表: {{ my_list }}, 分开获取:{{ my_list[0] }}, {{ my_list[1] }}</h3>
+        <h3>字典: {{ my_dict }}, 分开获取:{{ my_dict.name }}, {{ my_dict.age }}</h3>
+        <h3>元组: {{ my_tuple }}, 分开获取:{{ my_tuple[0] }}, {{ my_tuple[1] }}</h3>
+    <h2>遍历元组中所有的元素</h2>
+    {% for i in my_tuple %}
+        <li>{{ i }}</li>
+    {% endfor %}
+
+    <h2>遍历列表中所有的元素</h2>
+    {% for li in my_list %}
+        <li>{{ li }}</li>
+    {% endfor %}
+
+    <h2>取出列表中所有的偶数</h2>
+    {% for eror in my_list %}
+        {% if eror %2 == 0 %}
+            {{ eror }}
+        {% endif %}
+    {% endfor %}
+
+    <h2>遍历字典的内容</h2>
+    {% for key in my_dict %}
+        {# 如果直接是my_dict.key,那么这个key是一个字符串，如果my_dict[key],那么key当成变量 #}
+        <li>{{ key }} = {{ my_dict[key] }}</li>
+    {% endfor %}
+
+
+</body>
+</html>
