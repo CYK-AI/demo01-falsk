@@ -1,0 +1,81 @@
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR demo.py:10 error msg
+WARNING demo.py:11 warn msg
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 11:48:10] "[37mGET /api/v1/index HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:12] "[33mGET / HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/html/index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/js/template.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/js/ihome/index.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/images/home02.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:56:46] "[37mGET /static/images/home03.jpg HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:57:28] "[33mGET /static/plugins/swiper/js/maps/swiper.jquery.min.js.map HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 14:57:28] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR app.py:1891 Exception on / [GET]
+Traceback (most recent call last):
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:07:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR app.py:1891 Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "E:\env\my_flask\lib\site-packages\flask\app.py", line 2097, in make_response
+    "The view function did not return a valid response. The"
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:07:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:23:21] "[37mGET / HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:23:31] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:23:43] "[37mGET /index.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:23:57] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:23:58] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:23:58] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:23:58] "[33mGET /api/v1.0/image_codes/2d75b671-4ba5-41f5-8c96-807007cb0c1b HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:24:02] "[37mGET /login.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:24:02] "[37mGET /static/css/ihome/login.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [24/Mar/2020 16:24:02] "[37mGET /static/js/ihome/login.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /register.html HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/css/ihome/register.css HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/js/ihome/register.js HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[33mGET /api/v1.0/image_codes/0baa97b9-2647-4dba-b6b2-f855542b8707 HTTP/1.1[0m" 404 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:35:44] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO _internal.py:113 127.0.0.1 - - [25/Mar/2020 09:37:20] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 200 -
